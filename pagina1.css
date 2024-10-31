@@ -15,9 +15,12 @@ header {
     align-items: center;
     justify-content: space-evenly;
     padding: 2%;
-    background-color: #2d002e;
+    background-color: black;
     overflow: hidden;
+}
 
+header h1 {
+    color: white;
 }
 
 header nav ul {
@@ -56,64 +59,197 @@ header nav ul li a:hover {
 }
 
 #section-3 {
-    padding: 100px;
+    padding: 150px;
     background-color: #591159;
     display: flex;
-    gap: 30px;
     align-items: center;
+}
+
+.section-nova {
+    background: linear-gradient(180deg,#191919 8.33%,#000000 100%);
+    padding: 100px;
+}
+
+.div-pai {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.div-pai div {
+    width: 300px;
+    height: 380px;
+    background-color: chartreuse;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.div-filho1 {
+    background-image: url(img/img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-filho1:hover {
+    width: 310px;
+    height: 390px;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+.div-filho2 {
+    background-image: url(img/img2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-filho2:hover {
+    width: 310px;
+    height: 390px;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+.div-filho3 {
+    background-image: url(img/img3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-filho3:hover {
+    width: 310px;
+    height: 390px;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+.div-pai2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.div-pai2 div {
+    width: 300px;
+    height: 380px;
+    background-color: chartreuse;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.div-filho4 {
+    background-image: url(img/img\ alternativa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-filho4:hover{
+    width: 310px;
+    height: 390px;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+.div-filho5 {
+    background-image: url(img/img5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-filho5:hover {
+    width: 310px;
+    height: 390px;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+.div-filho6 {
+    background-image: url(img/img6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-filho6:hover {
+    width: 310px;
+    height: 390px;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+.section-table h1 {
+    color: white;
+}
+
+.section-table p {
+    color: white;
+}
+
+.section-table {
+    background: linear-gradient(180deg,#000000 8.33%,#191919 100%);
 
 }
 
-.div-ia {
-    width: 200px;
-    height: 300px;
-    
+table tr th {
+    border: 2px solid white;
+    border-collapse: collapse ;
+}
+
+.conteudo{
+    color: white;
+}
+
+.footer{
+    padding: 100px;
+    background-color: #f70a71;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div-list-footer i{
+    font-size: 50px;
+    color: white;
+
+}
+
+.div-sociais i{
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.div-list-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    padding: 30px;
+    background-color:#191919;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    gap: 35px;
-    margin-bottom: 30px;
 }
 
-.div-ia, .div-01 {
-    background-image: url(img/img1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: #345911;
-    padding: 30px;
+.div-list-footer i {
+    font-size: 50px;
+    color: white;
 }
 
-.div-ia, .div-02 {
-    background-image: url(img/img2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: #345911;
-    padding: 30px;
-    
+.div-sociais i {
+    background-color: rgb(52, 54, 194);
+    padding: 10px;
+    font-size: 25px;
+    color: white;
 }
 
-.div-ia, .div-03 {
-    background-image: url(img/img3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: #345911;
-    padding: 30px;
-}
-
-.div-ia, .div-04 {
-    background-image: url(img/img4.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.div-ia, .div-05 {
-    
-    background-size: cover;
-    background-position: center;
-}
-
-.div-ia, .div-06 {
-    
-    background-size: cover;
-    background-position: center;
+.div-list-footer a {
+    text-decoration: none;
+    color: white;
 }

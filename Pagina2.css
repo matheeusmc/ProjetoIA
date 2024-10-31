@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 35px;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: dimgrey;
+    transition: 0.6s;
+}
+
+.section-1{
+    background: linear-gradient(180deg,#4b4b4b 8.33%,#32323265 100%);
+    padding: 100px;
+}
+
+.section-1 p {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.068);
+    font-size: 40px;
+}
+
+.footer{
+    padding: 100px;
+    background-color: #f70a71;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div-list-footer i{
+    font-size: 50px;
+    color: white;
+
+}
+
+.div-sociais i{
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.div-list-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    padding: 30px;
+    background-color:#4b4b4b71;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-list-footer i {
+    font-size: 50px;
+    color: white;
+}
+
+.div-sociais i {
+    background-color: rgb(52, 54, 194);
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.div-list-footer a {
+    text-decoration: none;
+    color: white;
+}
